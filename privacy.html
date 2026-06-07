@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>iCoderAgent — Privacy &amp; Data Policy</title><link rel="stylesheet" href="style.css">
+</head><body><div class="wrap">
+  <header class="site"><div class="logo">&lt;/&gt;</div><div class="name">iCoderAgent</div></header>
+  <div class="nav"><a href="index.html">← Legal</a><a href="terms.html">Terms of Use</a></div>
+  <h1>Privacy &amp; Data Policy</h1>
+  <p class="eff">Effective 7 June 2026</p>
+
+  <p>iCoderAgent ("the app", "we") is a mobile-first AI coding assistant. We built it to be <strong>privacy-preserving by design</strong>: your code, your API keys, and your conversations stay on your device or go <strong>directly</strong> to the services you choose — they are not routed to us for storage.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">In short</h2>
+    <ul>
+      <li>We do <strong>not</strong> sell your data or show ads.</li>
+      <li>We do <strong>not</strong> run third-party analytics or tracking SDKs.</li>
+      <li>Your API keys, tokens and passwords are stored <strong>only</strong> in the iOS Keychain on your device.</li>
+      <li>Your prompts and code go <strong>directly</strong> to the AI provider you configure, under that provider's own privacy policy.</li>
+    </ul>
+  </div>
+
+  <h2>Information stored on your device</h2>
+  <ul>
+    <li><strong>Credentials</strong> — AI provider API keys, your GitHub token, database passwords, the relay session token, and MCP server tokens are stored in the <strong>iOS Keychain</strong>. They never leave your device except to authenticate directly with the service they belong to.</li>
+    <li><strong>Projects &amp; files</strong> — code and files you create are stored in the app's sandbox on your device.</li>
+    <li><strong>Conversation history &amp; memory</strong> — recent terminal/agent history and any project "memory" notes are stored locally so sessions persist.</li>
+    <li><strong>Usage logs</strong> — token counts and estimated cost per session are written to a local log on your device to power the in-app usage report. These are not sent to us.</li>
+  </ul>
+
+  <h2>Information you send to AI providers</h2>
+  <p>When you use the agent, the prompts you type, any files you attach, and relevant project code are sent <strong>directly from your device to the AI provider you selected</strong> (for example Anthropic, OpenAI, xAI, or Microsoft Azure / GitHub Models). This data is handled under <strong>that provider's</strong> privacy policy and terms. Choose a provider you trust, and avoid sending secrets in prompts.</p>
+
+  <h2>Account &amp; the relay (optional)</h2>
+  <p>If you create an account or use "Remote (laptop)", we process the <strong>email address</strong> you sign up with (or the relay email Apple provides for Sign in with Apple) to authenticate you. Passwords are stored only as a salted hash; we cannot read them.</p>
+  <p>The relay's sole job is to <strong>route traffic between your phone and your own laptop</strong> so you don't need to open a tunnel or expose a port. Code and commands pass <strong>through</strong> the relay in transit (over TLS) but are <strong>not stored</strong> by it. You can use the app fully on-device without an account ("Continue without an account").</p>
+
+  <h2>MCP servers &amp; integrations you add</h2>
+  <p>If you connect an MCP server or other integration, the data the agent exchanges with it goes to <strong>that server</strong>, under its operator's policy. You control which servers are enabled.</p>
+
+  <h2>Security</h2>
+  <p>Secrets live in the iOS Keychain. Network traffic uses encrypted HTTPS/TLS. No security measure is perfect, but we minimize what leaves your device.</p>
+
+  <h2>Data retention &amp; your choices</h2>
+  <ul>
+    <li>Remove a credential any time in Settings (it is deleted from the Keychain).</li>
+    <li>Sign out to clear your relay session from the device.</li>
+    <li>Delete a project or its files in the Files tab.</li>
+    <li><strong>Deleting the app removes all locally stored data</strong>, including Keychain items for the app.</li>
+    <li>To delete a relay account, contact us at the address below.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>iCoderAgent is intended for developers and is not directed to children under 13 (or the minimum age required in your region).</p>
+
+  <h2>Changes</h2>
+  <p>We may update this policy as the app evolves. Material changes will be reflected here with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or requests: <a href="mailto:mahesh.rajaram.shinde@gmail.com">mahesh.rajaram.shinde@gmail.com</a>.</p>
+
+  <p class="footer">iCoderAgent · Privacy &amp; Data Policy · Effective 7 June 2026</p>
+</div></body></html>
